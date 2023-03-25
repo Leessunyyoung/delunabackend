@@ -1,0 +1,59 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.Header {
+  margin: 0 auto;
+  width: 1200px;
+  height: 80px;
+
+  background-color: #f8f8f8;
+}
+
+.HeaderLogin {
+  width: 230px;
+  height: 20px;
+  margin-left: 1200px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+#LoginButton {
+  background-color: rgb(212, 201, 187);
+  text-decoration-line: none;
+  border: 0px;
+  border-bottom: 2px solid lightgray;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#LoginButtonText {
+  padding: 4px 10px;
+  color: rgb(131, 111, 82);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(212, 201, 187);
+  text-decoration-line: none;
+  border-radius: 5px;
+  font-size:17px;
+}
+
+#JoinText{
+  padding: 4px 10px;
+  color: rgb(131, 111, 82);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(212, 201, 187);
+  text-decoration-line: none;
+  border-radius: 5px;
+  font-size:17px;
+}
+
+.HeaderLogin li {
+  float: left;
+  margin-left: 10px;
+}
+
+#LogoImage {
+  width: 210px;
+  height: 70px;
+  margin: auto;
+}

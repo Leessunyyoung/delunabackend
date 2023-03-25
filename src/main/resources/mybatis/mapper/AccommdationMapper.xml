@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.project.delluna.dao.AccommodationDAO">
+<select id="getList" resultType="AccommodationDTO"> select * from ac </select>
+<select id="selectAC" parameterType="int" resultType="AccommodationDTO"> select * from ac where ac_id = #{ac_id} </select>
+<select id="selectServiceTags" parameterType="int" resultType="AC_ServiceDTO"> select * from ac_serv where ac_id = #{ac_id} </select>
+<select id="selectServiceTags2" resultType="AC_ServiceDTO"> select * from ac_serv </select>
+<select id="selectGR" parameterType="int" resultType="GRDTO"> select * from gr where ac_id = #{ac_id} </select>
+<select id="listGR" resultType="GRDTO"> select * from gr </select>
+<select id="selectGR2" parameterType="int" resultType="GRDTO"> SELECT DISTINCT gr.*,gr_p.gr_p_image FROM gr INNER JOIN gr_p ON gr.ac_id = gr_p.ac_id WHERE gr.ac_id = #{ac_id} </select>
+<select id="selectRv" resultType="ReviewDTO"> select * from rev </select>
+<select id="selectACT" resultType="ACTagDTO"> select * from ac_tag </select>
+<select id="listAC_ACT" parameterType="int" resultType="AccommodationDTO"> select ac.* from ac, ac_tag where ac.ac_id = ac_tag.ac_id and ac_tag.ac_tag_number = #{ac_tag_number} </select>
+</mapper>

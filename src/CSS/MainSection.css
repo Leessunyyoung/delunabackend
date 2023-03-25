@@ -1,0 +1,143 @@
+.App_section {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1000px;
+}
+
+.CategoryBox {
+  width: 1250px;
+  height: 45px;
+  margin: 0 auto;
+  margin-left: -20px;
+  margin-top: 6px;
+}
+
+.CategoryBox div {
+  width: 153px;
+  height: 40px;
+  border: 0px;
+  margin-left: 20px;
+  float: left;
+  border-radius: 12px;
+  background-color: rgb(235, 230, 222);
+  color: rgb(108, 101, 84);
+  font-size: 18px;
+  line-height: 2.2;
+}
+
+.CategoryLink {
+  text-decoration-line: none;
+  /* display: block; */
+}
+
+.CategoryLink :hover {
+  background-color: #b49f77;
+  color: #f8f8f8;
+}
+
+.MainBanner {
+  width: 1250px;
+  height: 290px;
+  margin: 40px auto;
+  margin-left: -25px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 3px rgba(139, 138, 138, 0.555);
+  padding: 10px;
+}
+
+.MainBanner h3 {
+  text-align: left;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  font-family: 'NanumSquareNeo-Variable';
+}
+
+.mmm {
+  width: 100px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Etc {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#SearchImage {
+  width: 1240px;
+  height: 380px;
+  opacity: 0.8;
+  margin-left: -20px;
+}
+
+.Searchbar {
+  position: absolute;
+  margin-top: -230px;
+}
+
+.MainTags {
+  margin-top: 50px;
+}
+
+.MainTagsItems {
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 3px rgba(139, 138, 138, 0.555);
+  margin-left: -25px;
+  padding: 25px;
+  margin-bottom: 60px;
+  width: 1250px;
+  height: 350px;
+  text-align: left;
+}
+
+.MainTagsItems h2 {
+  margin-top: 0px;
+  font-size: 23px;
+  font-weight: 550;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: 'NanumSquareNeo-Variable';
+}
+
+.MainTagsItems h4 {
+  margin-top: -20px;
+  font-family: 'NanumSquareNeo-Variable';
+}
+
+.MainTagsViewAll {
+  text-decoration-line: none;
+  color: black;
+  position: absolute;
+  margin-top: -40px;
+  font-size: 15px;
+  transform: translate(1145px);
+  font-weight: 550;
+}
+
+.MainTagsItemsSlide {
+  width: 1230px;
+  height: 260px;
+  margin-top: -15px;
+}
+
+.MainTagsItemsSlide div {
+  width: 275.9px;
+  height: 260px;
+  float: left;
+  margin-right: 30px;
+}
+
+.MainTagsItemsSlide div img {
+  width: 275.9px;
+  height: 220px;
+}
+
+.MainTagsItemsSlide div span {
+  font-size: 18px;
+  font-weight: 600;
+
+  color: black;
+}

@@ -1,0 +1,372 @@
+.ViewAll {
+  width: 1200px;
+  height: 1200px;
+  margin: 0 auto;
+}
+
+.ViewAllFilter {
+  width: 1200px;
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 2px 2px 3px 3px rgba(139, 138, 138, 0.555);
+  background-color: #f8f8f8;
+}
+
+.ViewAllFilter > div {
+  float: left;
+}
+
+.FilterLoc {
+  width: 300px;
+  height: 70px;
+}
+
+.LocSelectBox {
+  width: 270px;
+  height: 100px;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-left: 30px;
+  border: none;
+}
+
+#react-select-2-listbox {
+  margin-top: -60px;
+}
+
+.LocText {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: -210px;
+  margin-top: 10px;
+}
+
+.FilterDate {
+  width: 420px;
+  height: 50px;
+}
+
+#CheckInText {
+  width: 210px;
+  height: 10px;
+  font-size: 13px;
+  float: left;
+  margin-left: 28px;
+  font-weight: 600;
+}
+
+#CheckOutText {
+  font-weight: 600;
+  width: 210px;
+  height: 10px;
+  font-size: 13px;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+.react-datepicker__input-container {
+  margin-top: 8px;
+  width: 520px;
+  height: 20px;
+}
+
+#DatePicker {
+  width: 400px;
+  height: 25px;
+  float: left;
+  text-align: center;
+  margin-top: 8px;
+  margin-left: 50px;
+  background-color: #f8f8f8;
+  word-spacing: 20px;
+  letter-spacing: 3px;
+  font-size: 11.7px;
+}
+
+.react-datepicker__close-icon {
+  margin-top: 20px;
+  transform: translate(80px);
+}
+
+.react-datepicker {
+  float: left;
+  transform: translate(130px);
+  margin-top: 12px;
+}
+
+#react-select-3-listbox {
+  margin-top: -60px;
+}
+
+.FilterInfo {
+  width: 270px;
+  height: 70px;
+  margin-left: 80px;
+}
+
+#InfoHeadText {
+  margin-top: 10px;
+  width: 210px;
+  height: 10px;
+  font-size: 13px;
+  margin-left: -36px;
+  font-weight: 600;
+}
+
+.HeadSelectBox {
+  width: 210px;
+  height: 100px;
+  font-size: 13px;
+  margin-top: 8px;
+  margin-left: 30px;
+  border: none;
+}
+
+.FilterSearch {
+  width: 70px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.FilterSearch button {
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.FilterSearch img {
+  margin-top: 10px;
+  width: 23px;
+  height: 23px;
+}
+
+.ViewAllSection {
+  float: left;
+  width: 1200px;
+  height: 1000px;
+}
+
+.ViewAllCheckBox {
+  width: 270px;
+  height: 700px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 20px;
+  float: left;
+  padding: 10px;
+  box-shadow: 2px 2px 3px 3px rgba(139, 138, 138, 0.555);
+}
+
+.CheckBoxItems p {
+  float: left;
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.CheckBoxContainer {
+  width: 250px;
+  height: 200px;
+  box-shadow: 0.5px 0.5px 1.5px 1.5px #8b8a8a8e;
+  border: 0;
+  border-radius: 20px;
+}
+
+.CheckBoxContainer h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.CheckBox {
+  width: 65px;
+  margin: 14px 0 0 0;
+}
+
+.ViewAllInfo {
+  width: 890px;
+  height: 1000px;
+  margin-left: 270px;
+  padding: 30px;
+}
+
+.ViewAllInfoItem {
+  width: 890px;
+  height: 200px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 3px 3px rgba(139, 138, 138, 0.555);
+  border: 0;
+  border-radius: 20px;
+}
+
+.ViewAllInfoTitle {
+  width: 630px;
+  height: 200px;
+  float: left;
+  margin-left: 260px;
+}
+
+.ViewAllInfoTitle p {
+  font-size: 20px;
+  font-weight: 600;
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.ViewAllInfoText {
+  width: 620px;
+  height: 145px;
+  margin-top: -20px;
+  float: left;
+}
+
+.ViewAllInfoTextLeft {
+  width: 400px;
+  height: 145px;
+  float: left;
+  border: 0px 1px 0px 0px solid rgb(61, 61, 61);
+}
+
+.StarIcon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.starCount {
+  width: 50px;
+  height: 20px;
+  font-size: 16px;
+  transform: translate(-130px);
+  margin-left: -330px;
+  margin-top: -40px;
+}
+.ViewAllInfoTextLeft{
+  display: block;
+}
+.ViewAllInfoTextLeft img {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-top:10px;
+}
+
+.LeftAdd {
+  float: right;
+  font-size: 15px;
+  width: 370px;
+  height: 26px;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -2px;
+  margin-top:10px;
+}
+
+.LeftTagBoxs {
+  float: left;
+  width: 400px;
+  height: 25.5px;
+  text-align: left;
+  overflow: hidden;
+  margin-top:8px;
+}
+
+.LeftTagBoxs button {
+  background-color: #f8f8f8;
+  box-shadow: 1px 1px 0.5px 0.5px rgba(139, 138, 138, 0.555);
+  border-radius: 2px;
+  border: 0.5px solid rgb(191, 191, 191);
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.LeftReviewCount {
+  float: left;
+  width: 400px;
+  height: 20px;
+  text-align: left;
+  margin-top: 7px;
+  font-size: 13px;
+}
+
+.LeftReviewSample {
+  float: left;
+  width: 400px;
+  height: 38px;
+  text-align: left;
+  margin-top: 8px;
+  font-size: 12px;
+  font-style: italic;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  white-space: normal;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 2px;
+}
+
+.ViewAllInfoTextRight {
+  width: 210px;
+  height: 145px;
+  float: left;
+}
+
+#CheckIcon {
+  width: 21px;
+  height: 21px;
+  margin-top: 5px;
+  float: left;
+  transform: translate(23px);
+}
+
+.RightCheck {
+  width: 210px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.RightPrice {
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.RightPrice > p {
+  width: 126px;
+  height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 40px;
+  font-size: 18px;
+  padding-top: 6px;
+}
+
+.RightSubmit {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  box-shadow: 1px 1px 2px 2px rgba(139, 138, 138, 0.555);
+  border-radius: 15px;
+  border: 0;
+  background-color: #e65d5d;
+  color: #f8f8f8;
+}
+
+.InfoHotelImg {
+  width: 250px;
+  height: 200px;
+  float: left;
+  position: absolute;
+  transform: translate(-445px);
+  border-radius: 20px 0 0 20px;
+}

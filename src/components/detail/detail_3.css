@@ -1,0 +1,87 @@
+.gungchaklayout {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.gungchaktext {
+  width: 100%;
+  height: 40px;
+}
+
+.gungchaklayout span {
+  float: left;
+  margin-left: 30px;
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.annaelayout {
+  text-align: left;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid black;
+}
+
+.annaelayout_1 {
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.annaelayout text {
+  font-family: 'NanumSquareNeo-Variable';
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.annaetext {
+  margin-top: 2px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-family: 'NanumSquareNeo-Variable';
+  font-size: 15px;
+  font-weight: bolder;
+  border-bottom: 1px solid black;
+}
+
+.annaetext_1 {
+  margin-left: 15px;
+}
+
+.annaetext_1_2 {
+  line-height: 1.5;
+  width: 98%;
+  height: 90%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.annaelayout_2 {
+  text-align: left;
+  width: 100%;
+  height: 40px;
+}
+
+.annaelayout_2_1 {
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 8px 0;
+}
+.annaetext_2 {
+  line-height: 1.5;
+  margin-left: 10px;
+  width: 98%;
+  height: auto;
+  text-align: left;
+  font-family: 'NanumSquareNeo-Variable';
+  font-size: 15px;
+  font-weight: bolder;
+}
